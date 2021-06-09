@@ -12,25 +12,9 @@ const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
     "& .MuiButton-containedPrimary": {
-      borderRadius: "1px",
+      borderRadius: "0.063rem",
       color: "#000",
       backgroundColor: "#fff",
-      position: "relative",
-      "&::before": {
-        position: "absolute",
-        bottom: 0,
-        left: 0,
-        width: 0,
-        height: "2px",
-        background: "#27221f",
-        opacity: 0,
-        transition: "all linear 0.2s",
-      },
-      "&::hover": {
-        opacity: 1,
-        left: "50%",
-        width: "100%",
-      },
     },
     "& .MuiAppBar-colorPrimary": {
       color: "#000",
@@ -84,6 +68,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#27221f",
     fontFamily: "Jura",
     fontWeight: "400",
+    fontSize: "0.813rem",
   },
   inputInput: {
     padding: theme.spacing(1, 1, 1, 0),
